@@ -1,3 +1,6 @@
-module.exports = router => {
-    router.get('/v1/api/auth', auth)
+module.exports = {
+    auth: ctx => {
+        const { response } = ctx
+        response.body = { message: 'AUTH SUCCESS' }
+    }
 }

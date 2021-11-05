@@ -1,3 +1,3 @@
-const bs = require ('./config/bootstrap')
+const bs = require ('./_config/bootstrap')
 
 bs()
